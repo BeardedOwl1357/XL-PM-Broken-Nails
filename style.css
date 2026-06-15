@@ -440,6 +440,15 @@ a {
   overflow: hidden;
 }
 
+.product-art-image {
+  width: calc(100% + 2rem);
+  height: calc(100% + 2rem);
+  margin: -1rem;
+  object-fit: cover;
+  object-position: 56% 50%;
+  display: block;
+}
+
 .product-art-hooks {
   background:
     linear-gradient(155deg, transparent 0 38%, rgba(255, 255, 255, 0.1) 38% 100%),
